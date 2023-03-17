@@ -1,0 +1,55 @@
+
+
+.main {
+   
+    border: solid 1rem;
+    display: grid;
+  
+    grid-template-columns:repeat(2,435px);
+   
+    grid-template-areas: "D D "
+                         "C C "
+                         "A B";
+        
+  }
+
+
+
+
+
+
+.nombre{
+    background-color: cadetblue;
+    grid-area: A;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(4,100px);
+    text-align: center;
+
+}
+
+.operateur{
+    background-color: rgb(22, 88, 88);
+    grid-area: B;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: repeat(4,100px);
+    text-align: center;
+}
+
+.delete{
+    background-color: brown;
+    grid-area: C;
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    text-align: center;
+}
+.affichage{
+    background-color: rgb(58, 54, 54);
+    grid-area:D;
+    height: 200px;
+ 
+    
+    
+}
+
